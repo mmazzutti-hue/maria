@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria Retrô Tech</title>
+    <style>
+        body { font-family: sans-serif; background: #0f172a; color: white; padding: 40px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(56, 189, 248, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Museu Digital da Informática</h1>
+    <div class="grid">
+        <div class="card">
+            <h3>Mouse de Madeira (1964)</h3>
+            <p>Criado por Douglas Engelbart, o ponto de partida dos periféricos modernos.</p>
+        </div>
+        <div class="card">
+            <h3>Disquete 8" (1971)</h3>
+            <p>A revolução no armazenamento removível de dados da IBM.</p>
+        </div>
+    </div>
+</body>
+</html>
